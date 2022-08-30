@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/header.css"> -->
+</head>
+
+<body>
+    <header class="header">
+        <ul id="list">
+            <li>NOTES</li>
+            <li>
+                <div class="search" id="search">
+                    <input type="text" id="searchInput">
+                    <p>Search Here</p>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <div class="heading">
+            <h1>Enter Your Notes</h1>
+            <div class="head-line"></div>
+        </div>
+        <div class="form-container">
+            <div class="form-content">
+                <div>
+                    <label for="title">Title</label> <input type="text" name="title" class="title">
+                </div>
+                <div class="note">
+                    <label for="textArea">Note</label> <textarea name="textArea" id="" cols="30" rows="5"></textarea>
+                </div>
+                <div>
+                    <button class="btn add-btn" id="add-btn">Add Notes</button>
+                </div>
+            </div>
+        </div>
+        <div class="notes-container">
+            <div class="notes-heading">
+                <h1>Your Notes</h1>
+                <div class="head-line"></div>
+            </div>
+            <div class="notes">
+                
+            </div>
+            <button class="btn delete-all-btn">Delete All</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
